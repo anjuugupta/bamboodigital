@@ -1,0 +1,34 @@
+.brandImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+  }
+  
+  .Boxss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .Boxss p {
+    max-width: 100%; 
+    height: auto; 
+    margin: 20px;
+  }
+
+  .brandwrap{
+    margin-top: 68px;
+  }
+  .title{
+    font-family: Tenor Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; 
+letter-spacing: 4px;
+font-size: 24px;
+color: #000;
+margin-bottom: 20px;
+text-transform: uppercase;
+}

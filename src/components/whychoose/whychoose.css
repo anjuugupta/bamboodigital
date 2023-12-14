@@ -1,0 +1,64 @@
+/* whychoose.css */
+
+/* .choosewrap {
+    display: flex;
+    
+background: #F2F2F2;
+    justify-content: center; /* Centers the content horizontally */
+    /* align-items: center; 
+    padding: 20px;
+  } */
+ /* whychoose.css */
+
+.choosewrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .wrap-1 {
+    text-align: center;
+  }
+  
+  .logowrap {
+    width: 100px;
+    height: auto;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .list-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .list-2 img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .list-2 p {
+    margin: 10px 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .list-2 {
+      margin: 0;
+    }
+  }
+  
+

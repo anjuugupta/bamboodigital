@@ -1,0 +1,65 @@
+.title{
+    font-family: Tenor Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; 
+letter-spacing: 4px;
+font-size: 24px;
+color: #000;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+
+.collectionwrap {
+    text-align: center;
+  }
+  
+  /* .title {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 20px;
+  } */
+  
+  .collectionimage {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .collectionimage img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:  #FCFCFC;
+  }
+  
+  .overlay h1 {
+    font-family: 'Bodoni Moda';
+    font-size: 162px;
+    color:  #4b4b4b87;
+    font-style: italic;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .overlay p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Sans;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 6.061px;
+    text-transform: uppercase;
+  }
+
+  .overlay .additional-text {
+    font-size: 20px; 
+    font-weight: bold;
+    margin-top: -30px; 
+  }

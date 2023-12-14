@@ -1,0 +1,22 @@
+.brandImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+  }
+  
+  .Boxss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .Boxss img {
+    max-width: 100%; 
+    height: auto; 
+    margin: 30px;
+  }
+
+  .brandwrap{
+    margin-top: 68px;
+  }

@@ -1,0 +1,36 @@
+.automnColl{
+    color:  #333;
+font-family: Bodoni Moda 28pt;
+font-size: 41.865px;
+font-style: italic;
+font-weight: 700;
+line-height: 62.797px; /* 150% */
+letter-spacing: -1px;
+text-transform: uppercase;
+
+}
+.collp{
+   
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Sans;
+        font-size: 7px;
+        margin-top: -42px;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 6.061px;
+        text-transform: uppercase;
+    }
+      
+
+.textwrap{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:  #333;
+    margin-top: 57px;
+}
+.collectionwrap{
+object-fit: cover;
+    margin-top: 60px;
+}

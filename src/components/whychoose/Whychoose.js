@@ -3,6 +3,11 @@ import React from "react";
 import logo from "../../assets/Group.png";
 import "./whychoose.css";
 import miroodles from "../../assets/Miroodles Sticker.png";
+import miroodlesone from "../../assets/Miroodles Sticker1.png"
+import miroodlestwo from "../../assets/Miroodles Sticker2.png"
+import miroodlesthree from "../../assets/Miroodles Sticker3.png"
+import Hrtag from "../hrtag/Hrtag";
+import fohr from "../../assets/abc.png"
 
 export const Whychoose = () => {
   return (
@@ -15,17 +20,28 @@ export const Whychoose = () => {
               Making a luxurious lifestyle accessible for a generous group of
               women is our daily drive.
             </p>
-            <div className="container">
-              <div className="list-2">
+            <Hrtag/>
+
+            <div className="Boxsss">
+            <div className="choose-1">
+            <div className="miroodles">
                 <img src={miroodles} />
                 <p>Fast shipping. Free on orders over $25.</p>
-                <img src={miroodles} />
+                </div>
+                <div className="miroodles">
+                <img src={miroodlesone} />
                 <p>Sustainable process from start to finish.</p>
-                <img src={miroodles} />
+                </div>
+                <div className="miroodles">
+                <img src={miroodlestwo} />
                 <p>Unique designs and high-quality materials.</p>
-                <img src={miroodles} />
+                </div>
+                <div className="miroodles">
+                <img src={miroodlesthree} />
                 <p>Fast shipping. Free on orders over $25.</p>
-              </div>
+                </div>
+                </div>
+                <img src={fohr}/>
             </div>
           </div>
         </div>

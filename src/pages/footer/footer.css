@@ -51,11 +51,11 @@ hr.rhombus-divider {
     justify-content: center;
     justify-content: space-around;
     list-style: none;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 31px;
-    line-height: 83px;
+    /* line-height: 83px; */
+}
     
-  }
   .footerNav ul li a{
     text-decoration: none;
     color: #000;

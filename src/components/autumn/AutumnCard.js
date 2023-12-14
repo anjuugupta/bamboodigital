@@ -7,7 +7,7 @@ export const AutumnCard = () => {
   return (
     <Box>
     <div className='collectionwrap'>
-    <div className='collectionimage'>
+    <div className='collectionimage wrap-up'>
       <img src={autumn} alt='Collection' />
       <div className='textwrap'>
         <p className='automnColl'>AUTUMN</p>

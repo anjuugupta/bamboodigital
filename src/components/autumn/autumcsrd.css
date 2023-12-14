@@ -34,3 +34,11 @@ text-transform: uppercase;
 object-fit: cover;
     margin-top: 60px;
 }
+.collectionimage img {
+    max-width: 100%;
+    height: auto;
+  }
+  .wrap-up{
+    padding: 45px;
+    height: 100%;
+  }

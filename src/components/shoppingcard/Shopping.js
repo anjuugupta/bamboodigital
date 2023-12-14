@@ -38,7 +38,7 @@ export default function Shopping() {
     );
   };
 
-  const fakeCategories = ["All", "Apparel", "Dress", "Tshirt", "Bags"];
+  const fakeCategories = ["All", "Apparel", "Dress", "Bags"];
 
   console.log("Filtered Products:", getFilteredProducts());
 

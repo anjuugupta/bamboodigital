@@ -19,7 +19,6 @@ export const Trading = () => {
           <p>#Openfashio</p>
           </div>
         </Box>
-        <Hrtag />
       </Box>
     </>
   );

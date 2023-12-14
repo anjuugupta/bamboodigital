@@ -52,7 +52,7 @@ background: #F2F2F2;
   /* Responsive Styles */
   @media (max-width: 768px) {
     .container {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
     }
   

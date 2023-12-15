@@ -7,6 +7,10 @@ import Hrtag from "../hrtag/Hrtag";
 export default function Shopping() {
   const [fake, setFake] = useState([]);
   const [activeTab, setActiveTab] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const productsPerPage = 4;
+
+  const fakeCategories = ["All", "Apparel", "Dress", "Bags"];
 
   useEffect(() => {
     const fakestore = async () => {
@@ -24,12 +28,11 @@ export default function Shopping() {
 
   const handleTabChange = (event, newValue) => {
     setActiveTab(newValue);
+    setCurrentPage(1); // Reset to the first page when the category changes
   };
 
   const getFilteredProducts = () => {
     const selectedCategory = fakeCategories[activeTab].toLowerCase();
-
-    console.log("Selected Category:", selectedCategory);
 
     return fake.filter(
       (product) =>
@@ -38,9 +41,16 @@ export default function Shopping() {
     );
   };
 
-  const fakeCategories = ["All", "Apparel", "Dress", "Bags"];
+  const indexOfLastProduct = currentPage * productsPerPage;
+  const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+  const currentProducts = getFilteredProducts().slice(
+    indexOfFirstProduct,
+    indexOfLastProduct
+  );
 
-  console.log("Filtered Products:", getFilteredProducts());
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
 
   return (
     <>
@@ -63,7 +73,7 @@ export default function Shopping() {
         ))}
       </Tabs>
       <Box className="container">
-        {getFilteredProducts().map((values) => (
+        {currentProducts.map((values) => (
           <div key={values.id} className="boxs">
             <img src={values.image} alt={values.title} className="imagesfit" />
             <div className="content">
@@ -74,7 +84,11 @@ export default function Shopping() {
         ))}
       </Box>
       <Box>
-        <Button className="exploreMore" style={{ color: "Black" }}>
+        <Button
+          className="exploreMore"
+          style={{ color: "Black" }}
+          onClick={() => paginate(currentPage + 1)}
+        >
           Explore More <ArrowForwardIcon />
         </Button>
       </Box>

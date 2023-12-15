@@ -3,7 +3,7 @@
   font-size: 38.656px;
   font-style: italic;
   font-weight: 700;
-  line-height: 43.488px; /* 112.5% */
+  line-height: 43.488px; 
   letter-spacing: 1.208px;
   text-transform: uppercase;
 }
@@ -58,3 +58,28 @@
     background-color: #555; 
   }
   
+
+.banner {
+  position: relative;
+}
+
+.desktop-image,
+.mobile-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .mobile-image {
+    display: none; 
+  }
+}
+
+@media (max-width: 767px) {
+  .desktop-image {
+    display: none; 
+  }
+}
+

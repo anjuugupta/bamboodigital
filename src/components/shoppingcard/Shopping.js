@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./shoppingcards.css";
 import { Box, Button, Tab, Tabs } from "@mui/material";
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Hrtag from "../hrtag/Hrtag";
 
 export default function Shopping() {
@@ -51,7 +51,6 @@ export default function Shopping() {
         onChange={handleTabChange}
         centered
         className="lable"
-
       >
         {fakeCategories.map((category, index) => (
           <Tab
@@ -59,8 +58,7 @@ export default function Shopping() {
             label={category}
             style={{
               color: activeTab === index ? "#000" : "gray",
-              
-            }}          
+            }}
           />
         ))}
       </Tabs>
@@ -76,7 +74,9 @@ export default function Shopping() {
         ))}
       </Box>
       <Box>
-      <Button className="exploreMore" style={{color:"Black"}}>Explore More <ArrowForwardIcon/></Button>
+        <Button className="exploreMore" style={{ color: "Black" }}>
+          Explore More <ArrowForwardIcon />
+        </Button>
       </Box>
     </>
   );

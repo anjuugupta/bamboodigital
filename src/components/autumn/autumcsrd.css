@@ -75,3 +75,9 @@
         font-size: 7px;
       }
 }
+
+@media (max-width: 767px){
+    .textwrap {
+        left: 50%;
+    }
+}

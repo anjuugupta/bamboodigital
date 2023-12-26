@@ -26,8 +26,8 @@ export default function SideBar({ state, setState, toggleDrawer }) {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
-        <img src={logo} style={{marginLeft:"83px"}}/>
+      <List style={{background:"#E7EAEF", padding:"20px"}}>
+        <img src={logo} style={{marginLeft:"63px"}}/>
       </List>
       <Divider/>
       <List>

@@ -38,15 +38,15 @@
   .contantBanner {
     position: absolute;
     margin-top: 98px;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 55%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #00000066; 
   }
   
   .contantBanner p {
-    font-size: 38.656px;
+    font-size: 61px;
     color: #555;
     margin-right: 40px;
     margin-bottom: 15px;
@@ -80,6 +80,23 @@
 @media (max-width: 767px) {
   .desktop-image {
     display: none; 
+  }
+}
+
+@media  (max-width: 767px){
+  .contantBanner p {
+    font-size: 38.656px;
+  }
+}
+@media (max-width: 767px){
+  .contantBanner {
+    position: absolute;
+    margin-top: 98px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #00000066; 
   }
 }
 

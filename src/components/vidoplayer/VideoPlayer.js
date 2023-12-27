@@ -12,7 +12,7 @@ export default function VideoPlayer() {
         <video
           controls
           poster={videoimage}  // Use videoimage as the poster
-          style={{ width: '100%', height: '100%' }}
+          style={{ width: '100%', height:'auto' }}
         >
           <source
             src={video}

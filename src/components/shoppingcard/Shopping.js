@@ -8,7 +8,7 @@ export default function Shopping() {
   const [fake, setFake] = useState([]);
   const [activeTab, setActiveTab] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
-  const productsPerPage = 6;
+  const productsPerPage = 4;
 
   const fakeCategories = ["All", "Apparel", "Dress", "Bags"];
 

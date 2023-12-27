@@ -22,7 +22,7 @@ export const Whychoose = () => {
             </p>
             <Hrtag/>
 
-            <div className="Boxsss">
+ 
             <div className="choose-1">
             <div className="miroodles">
                 <img src={miroodles} />
@@ -44,7 +44,6 @@ export const Whychoose = () => {
                 <img src={fohr}/>
             </div>
           </div>
-        </div>
       </Box>
     </>
   );
